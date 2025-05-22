@@ -12,3 +12,25 @@
     font-family: 'classy-vogue-regular';
     src: url(../fonts/classy-vogue-regular.ttf) format('truetype');
 }
+
+
+body {
+    background: url(../assets/background.png) no-repeat;
+    background-size: 100% 100vh;
+
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0; /* ocupa toda a tela */
+    background-color: rgba(0, 0, 0, 0.7); /* cor com opacidade */
+    z-index: -1; /* fica atrás do conteúdo */
+  }
+
+@media (width >= 80em) {
+    body {
+        background: url(../assets/background.png) no-repeat;
+        background-size: 100% 100vh;
+    }
+}

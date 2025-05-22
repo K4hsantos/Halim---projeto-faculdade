@@ -1,0 +1,52 @@
+#hero {
+    & img {
+        width: 50%;
+        height: auto;
+
+        display: block;
+        margin: auto;
+        margin-top: 9rem;
+    }
+
+    & h1 {
+        font-family: 'arabic-ramadhan';
+        font-size: 8rem;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -2.5rem;
+    }
+
+    & span {
+        display: block;
+        font-family: 'classy-vogue-regular';
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (width >= 80em) {
+    #hero {
+        & img {
+            width: 25%;
+            height: auto;
+            
+            margin-left: 15%;
+            margin-top: 13rem;
+        }
+
+        & h1 {
+            font-size: 15rem;
+            margin-top: -18rem;
+            margin-left: 25%;
+        }
+
+        & span {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-left: 25%;
+        }
+    }
+}

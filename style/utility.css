@@ -1,0 +1,28 @@
+.container {
+    max-width: 375px;
+    margin-inline: auto;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.mobile-only {
+    display: initial;
+}
+
+@media (min-width: 80em) {
+    .container {
+        width: 80em;
+        max-width: 70rem;
+        margin-inline: auto;
+    }
+
+    .desktop-only {
+        display: initial;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
