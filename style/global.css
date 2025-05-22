@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+@font-face {
+    font-family: 'arabic-ramadhan';
+    src: url(../fonts/arabic-ramadhan.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'classy-vogue-regular';
+    src: url(../fonts/classy-vogue-regular.ttf) format('truetype');
+}
