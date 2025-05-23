@@ -18,5 +18,42 @@
                 }
             }
         }
+
+        & #main {
+            & img {
+                display: block;
+                width: 25%;
+                margin-top: 12rem;
+                margin-left: 15%;
+            }
+
+            & h1 {
+                font-family: 'arabic-ramadhan', sans-serif;
+                font-size: 15rem;
+                font-weight: 100;
+                color: white;
+                margin-top: -18rem;
+                margin-left: 45%;
+            }
+
+            & span {
+                display: block;
+                font-family: 'classy-vogue-regular', sans-serif;
+                font-size: 1.2rem;
+                color: white;
+                margin-top: 2.5rem;
+                margin-left: 53%;
+            }
+
+            & img:nth-child(4) {
+                display: block;
+                width: 120%;
+                height: auto;
+
+                margin-top: -33rem;
+                margin-left: -5rem;
+            }
+        }
+
     }
 }
