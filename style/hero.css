@@ -1,0 +1,22 @@
+
+
+@media (width >= 80em) {
+
+    #hero {
+        & header {
+
+            & nav {
+                display: flex;
+                justify-content: space-between;
+
+                & a {
+                    font-family: 'Alice', sans-serif;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+}

@@ -13,3 +13,9 @@
     src: url(../fonts/classy-vogue-regular.ttf) format('truetype');
 }
 
+#hero {
+    background-image: url(../assets/before.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
