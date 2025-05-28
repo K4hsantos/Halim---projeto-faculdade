@@ -83,24 +83,25 @@
                 display: block;
                 width: 25%;
                 margin-top: 15rem;
-                margin-left: 10%;
+                margin-left: 18%;
             }
 
             & h1 {
                 font-family: 'arabic-ramadhan', sans-serif;
-                font-size: 15rem;
+                font-size: 20rem;
                 font-weight: 100;
                 color: white;
-                margin-left: 45%;
+                margin-top: -24%;
+                margin-left: 46%;
             }
 
             & span {
                 display: block;
                 font-family: 'classy-vogue-regular', sans-serif;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 color: white;
                 margin-top: 2.5rem;
-                margin-left: 53%;
+                margin-left: 56%;
             }
         }
 
@@ -108,9 +109,9 @@
             & img {
                 display: block;
                 width: 150%;
-                /* margin: auto; */
-                margin-top: -.70%;
+                margin-top: -6.8%;
                 margin-left: -30%;
             }
     }
+}
 }

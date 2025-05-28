@@ -16,7 +16,7 @@
     padding: 0; 
 }
 
-@media (min-width: 80em) {
+@media (width >= 80em) {
     .container {
         width: 80em;
         max-width: 70rem;
@@ -29,5 +29,13 @@
 
     .mobile-only {
         display: none;
+    }
+}
+
+@media (width >= 120em) {
+    .container {
+        width: 120em;
+        max-width: 100em;
+        margin-inline: auto;
     }
 }
