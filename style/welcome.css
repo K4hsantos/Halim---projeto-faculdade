@@ -1,5 +1,33 @@
 @media (width >= 80em) {
+     #welcome {
 
+        & h1 {
+            font-family: 'above-the-beyond-script', sans-serif;
+            font-size: 3.8rem;
+            font-weight: 100;
+            color: #c72023;
+            margin-top: 18rem;
+            margin-bottom: 2rem;
+
+            & span {
+                padding: 1rem;
+            }
+        }
+
+        & p {
+            max-width: 55rem;
+            font-family: 'Alice', sans-serif;
+            font-size: 1.68rem;
+        }
+
+        & img {
+            display: block;
+            width: 80%;
+            margin-top: -25rem;
+            margin-left: 70%;
+            rotate: 35deg;
+        }
+    }
 }
 
 @media (width >= 120em) {

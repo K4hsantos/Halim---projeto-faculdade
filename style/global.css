@@ -23,13 +23,24 @@ body {
 }
 
 #hero {
-    background-image: url(../assets/background.png);
+    background: url(../assets/imagem_vertical.png) no-repeat;
     background-size: cover;
     background-position: center;
+    width: 120%;
     height: 100vh;
-    width: 100.4%;
 }
 
-#welcome {
+@media (width >= 80em) {
+    #hero {
+        background-image: url(../assets/background.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100.4%;
+    }
+    
+    #welcome {
+    
+    }
 
 }

@@ -1,4 +1,41 @@
+ #hero {
+    & #main {
+        & img {
+            display: block;
+            margin: auto;
+            margin-left: 15.5%;
+            padding-top: 40%;
+            width: 13rem;
+        }
 
+        & h1 {
+            font-family: 'arabic-ramadhan', sans-serif;
+            font-size: 8rem;
+            font-weight: 100;
+            color: white;
+            margin-top: -2rem;
+            margin-left: 16%;
+        }
+
+        & span {
+            display: block;
+            font-family: 'classy-vogue-regular', sans-serif;
+            font-size: 1rem;
+            color: white;
+            margin-top: 1rem;
+            margin-left: 22%;
+        }
+    }
+
+        & .connection {
+            & img {
+                display: block;
+                width: 100%;
+                /* margin: auto; */
+                margin-top: %;
+            }
+}
+}
 
 @media (width >= 80em) {
 
@@ -51,13 +88,14 @@
                 display: block;
                 width: 200%;
                 /* margin: auto; */
-                margin-top: -20%;
+                margin-top: -19%;
                 margin-left: -36%;
             }
         }
 
     }
 }
+
 
 @media (width >= 120em) {
 
