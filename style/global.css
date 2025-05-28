@@ -13,8 +13,19 @@
     src: url(../fonts/classy-vogue-regular.ttf) format('truetype');
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #hero {
     background-image: url(../assets/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#welcome {
+    background-image: url(../assets/background-2.png);
     background-size: cover;
     background-position: center;
     height: 100vh;

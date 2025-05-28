@@ -44,16 +44,73 @@
                 margin-top: 2.5rem;
                 margin-left: 53%;
             }
+        }
 
-            & img:nth-child(4) {
+        & .connection {
+            & img {
                 display: block;
-                width: 120%;
-                height: auto;
-
-                margin-top: -33rem;
-                margin-left: -5rem;
+                width: 200%;
+                /* margin: auto; */
+                margin-top: -20%;
+                margin-left: -36%;
             }
         }
 
+    }
+}
+
+@media (width >= 120em) {
+
+    #hero {
+        & header {
+
+            & nav {
+                display: flex;
+                justify-content: space-between;
+
+                & a {
+                    font-family: 'Alice', sans-serif;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 5rem;
+                }
+            }
+        }
+
+        & #main {
+            & img {
+                display: block;
+                width: 25%;
+                margin-top: 15rem;
+                margin-left: 10%;
+            }
+
+            & h1 {
+                font-family: 'arabic-ramadhan', sans-serif;
+                font-size: 15rem;
+                font-weight: 100;
+                color: white;
+                margin-left: 45%;
+            }
+
+            & span {
+                display: block;
+                font-family: 'classy-vogue-regular', sans-serif;
+                font-size: 1.2rem;
+                color: white;
+                margin-top: 2.5rem;
+                margin-left: 53%;
+            }
+        }
+
+        & .connection {
+            & img {
+                display: block;
+                width: 150%;
+                /* margin: auto; */
+                margin-top: -.70%;
+                margin-left: -30%;
+            }
     }
 }
