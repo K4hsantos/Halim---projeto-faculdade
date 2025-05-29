@@ -30,6 +30,13 @@ body {
     height: 100vh;
 }
 
+#reserve {
+    background: #23401f;
+    background-size: cover;
+    background-position: center;
+    width: 200%;
+    height: 90vh;
+}
 @media (width >= 80em) {
     #hero {
         background-image: url(../assets/background.png);

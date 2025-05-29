@@ -38,4 +38,11 @@
         max-width: 100em;
         margin-inline: auto;
     }
+
+    .button {
+        border: solid 1px;
+        width: 10rem;
+        height: 5rem;
+        border-radius: 2rem;
+    }
 }

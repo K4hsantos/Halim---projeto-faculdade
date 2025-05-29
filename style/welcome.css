@@ -1,5 +1,5 @@
 #welcome {
-
+            margin-bottom: 8rem;
     & h1 {
         font-family: 'above-the-beyond-script', sans-serif;
         font-size: 1.8rem;
@@ -128,9 +128,9 @@
         }
 
         & p {
-            max-width: 55rem;
-            font-family: 'Alice', sans-serif;
-            font-size: 1.68rem;
+            max-width: 45rem;
+            font-family: 'classy-vogue-regular', sans-serif;
+            font-size: 2.5rem;
         }
 
         & img {
