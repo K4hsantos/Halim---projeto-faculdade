@@ -57,7 +57,6 @@
 
 @media (width >= 120em) {
 #reserve {
-
         & img {
             margin-top: 7rem;
             display: block;
@@ -89,6 +88,7 @@
             display: block;
             font-family: 'classy-vogue-regular', sans-serif;
             font-size: 2.5rem;
+            font-weight: 600;
             text-decoration: none;
             color: #d7c1b5;
             width: 30rem;
@@ -102,7 +102,7 @@
             margin-left: 55rem;
 
             border: solid 1px #d7c1b5;
-            border-radius: 1rem;
+            border-radius: .7rem;
         }
     } 
 }
