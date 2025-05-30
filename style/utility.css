@@ -45,4 +45,10 @@
         height: 5rem;
         border-radius: 2rem;
     }
+
+    .flex {
+        display: flex;
+        gap: 5rem;
+    }
+    
 }

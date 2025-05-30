@@ -1,5 +1,54 @@
 @media (width >= 80em) {
-    
+       #reserve {
+
+        & img {
+            margin-top: 7rem;
+            display: block;
+            width: 45%;
+            margin: left;
+        }
+
+        & h1 {
+            display: flex;
+            font-family: 'above-the-beyond-script', sans-serif;
+            font-size: 3.8rem;
+            color: #d7c1b5;
+            margin-top: -35rem;
+            /* margin-bottom: 5rem; */
+            justify-content: center;
+            transform: translateX(20%);
+        }
+
+        & p {
+            font-family: 'classy-vogue-regular';
+            font-size: 1.5rem;
+            color: #d7c1b5;
+            width: 100%;
+            margin-top: 5rem;
+            margin-left: 33rem; 
+        }
+
+
+        & a {
+            display: block;
+            font-family: 'classy-vogue-regular', sans-serif;
+            font-size: 2.5rem;
+            text-decoration: none;
+            color: #d7c1b5;
+            width: 30rem;
+
+            padding-right: 2rem;
+            padding-left: 4em;
+            padding-top: .5rem;
+
+            margin: auto;
+            margin-top: 7rem;
+            margin-left: 32rem;
+
+            border: solid 1px #d7c1b5;
+            border-radius: .5rem;
+        }
+    } 
 }
 
 @media (width >= 90em) {
@@ -7,50 +56,53 @@
 }
 
 @media (width >= 120em) {
-    #reserve {
-        position: relative;
+#reserve {
+
         & img {
-            padding-top: 5rem;
-            position: absolute;
-            right: 58%;
+            margin-top: 7rem;
             display: block;
-            width: 50%;
-            overflow: hidden;
+            width: 45%;
+            margin: left;
         }
 
         & h1 {
+            display: flex;
             font-family: 'above-the-beyond-script', sans-serif;
-            font-size: 3.8rem;
+            font-size: 4.8rem;
             color: #d7c1b5;
-            position: absolute;
-            margin-top: 5rem;
-            margin-bottom: 5rem;
-            right: 66%;
+            margin-top: -50rem;
+            justify-content: center;
+            transform: translateX(20%);
         }
 
         & p {
             font-family: 'classy-vogue-regular';
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #d7c1b5;
-            position: absolute;
-            right: 51%;
-            top: 30%;
+            width: 100%;
+            margin-top: 5rem;
+            margin-left: 51rem;
         }
 
 
         & a {
-            position: absolute;
-
+            display: block;
             font-family: 'classy-vogue-regular', sans-serif;
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-decoration: none;
             color: #d7c1b5;
             width: 30rem;
-            padding-right: 8rem;
-            padding-left: 10rem;
-            padding-top: 1rem;
-            bottom: 12%;
-            right: 57%;
+
+            padding-right: 1rem;
+            padding-left: 8rem;
+            padding-top: 1.5rem;
+
+            margin: auto;
+            margin-top: 7rem;
+            margin-left: 55rem;
+
+            border: solid 1px #d7c1b5;
+            border-radius: 1rem;
         }
-    }
+    } 
 }
