@@ -52,9 +52,15 @@ body {
     background: #d7c1b5;
     background-size: cover;
     background-position: center;
-    width: 120%;
+    /* width: 120%; */
+    height: 130vh;
+}
+
+#emphasis {
+    background: #fefdfd;
+    background-size: cover;
+    background-position: center;
     height: 120vh;
-    z-index: -2;
 }
 
 @media (width >= 80em) {

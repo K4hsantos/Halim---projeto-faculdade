@@ -1,16 +1,58 @@
-#history {
-    & h1 {
-        font-family: 'above-the-beyond-script', sans-serif;
-        font-size: 3.8rem;
-        font-weight: 100;
-        padding-top: 40rem;
-        transform: translateX(-10%);
-    }
-
-    & p {
-        font-family: 'classy-vogue-regular', sans-serif;
-        font-size: 1.5rem;
-        max-width: 40%;
-        transform: translateX(-25%);
+@media (width >= 120em) {
+    #history {
+        position: relative;
+        & h1 {
+            font-family: 'above-the-beyond-script', sans-serif;
+            font-size: 3.8rem;
+            font-weight: 100;
+            padding-top: 40rem;
+        }
+    
+        & p {
+            font-family: 'classy-vogue-regular', sans-serif;
+            font-size: 1.5rem;
+            max-width: 40%;
+        }
+    
+        & .img-container {
+            display: grid;
+            grid-template-areas:
+            "a b"
+            "c e"
+            "d e";
+            row-gap: 1rem;
+            column-gap: 10rem;
+            
+            position: absolute;
+            left: 50%;
+            top: 30%;
+    
+            & img:nth-child(1) {
+                width: 170%;
+                grid-area: a;
+            }
+    
+            & img:nth-child(2) {
+                width: 190%;
+                grid-area: b;
+            }
+    
+            & img:nth-child(3) {
+                width: 170%;
+                grid-area: c;
+            }
+    
+            & img:nth-child(4) {
+                width: 170%;
+                grid-area: d;
+            }
+    
+            & img:nth-child(5) {
+                position: absolute;
+                top: -5%;
+                width: 190%;
+                grid-area: e;
+            }
+        }
     }
 }
