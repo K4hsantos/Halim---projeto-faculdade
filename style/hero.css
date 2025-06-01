@@ -85,11 +85,14 @@
 
         & .connection {
             & img {
-                display: block;
-                width: 200%;
-                /* margin: auto; */
-                margin-top: -19%;
-                margin-left: -36%;
+                position: absolute;
+                /* bottom: 0; */
+                left: 0;
+                top: 70%;
+                width: 100vw;
+                height: 50vh;
+                /* max-width: none; */
+                z-index: 1;
             }
         }
 

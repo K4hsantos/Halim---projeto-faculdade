@@ -1,3 +1,63 @@
+@media (width >= 80em) {
+    #history {
+        position: relative;
+        & h1 {
+            font-family: 'above-the-beyond-script', sans-serif;
+            font-size: 3.8rem;
+            font-weight: 100;
+            padding-top: 20rem;
+        }
+    
+        & p {
+            font-family: 'classy-vogue-regular', sans-serif;
+            font-size: 1.5rem;
+            max-width: 40%;
+            
+        }
+    
+        & .img-container {
+            display: grid;
+            grid-template-areas:
+            "a b"
+            "c e"
+            "d e";
+            row-gap: 1rem;
+            column-gap: 7rem;
+            
+            position: absolute;
+            left: 45%;
+            top: 15%;
+    
+            & img:nth-child(1) {
+                width: 150%;
+                grid-area: a;
+            }
+    
+            & img:nth-child(2) {
+                width: 170%;
+                grid-area: b;
+            }
+    
+            & img:nth-child(3) {
+                width: 150%;
+                grid-area: c;
+            }
+    
+            & img:nth-child(4) {
+                width: 150%;
+                grid-area: d;
+            }
+    
+            & img:nth-child(5) {
+                position: absolute;
+                top: -5%;
+                width: 170%;
+                grid-area: e;
+            }
+        }
+    }
+}
+
 @media (width >= 120em) {
     #history {
         position: relative;
@@ -5,7 +65,7 @@
             font-family: 'above-the-beyond-script', sans-serif;
             font-size: 3.8rem;
             font-weight: 100;
-            padding-top: 40rem;
+            padding-top: 22rem;
         }
     
         & p {
@@ -25,7 +85,7 @@
             
             position: absolute;
             left: 50%;
-            top: 30%;
+            top: 10%;
     
             & img:nth-child(1) {
                 width: 170%;

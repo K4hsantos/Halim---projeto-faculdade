@@ -39,6 +39,7 @@
 
 @media (width >= 80em) {
      #welcome {
+
         & h1 {
             font-family: 'above-the-beyond-script', sans-serif;
             font-size: 2.5rem;
