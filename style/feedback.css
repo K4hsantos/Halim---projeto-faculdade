@@ -1,5 +1,5 @@
 #feedback {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   padding-bottom: 85rem;
 
   & h1 {

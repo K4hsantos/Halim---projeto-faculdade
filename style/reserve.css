@@ -1,4 +1,6 @@
-#reserve {
+@media (max-width: 720px) {
+    #reserve {
+    overflow-x: hidden;
     padding-bottom: 3rem;
     & img {
         margin-top: 3rem;
@@ -43,6 +45,7 @@
         border-radius: .5rem;
         max-width: 10rem;
     }
+}
 }
 
 

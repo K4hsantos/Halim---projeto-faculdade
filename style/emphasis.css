@@ -1,5 +1,6 @@
 @media (max-width: 760px) {
     #emphasis {
+      overflow-x: hidden;
       padding-top: 2rem;
       margin-bottom: 4rem;
     

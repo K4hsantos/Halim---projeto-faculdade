@@ -61,7 +61,7 @@ body {
     background: #d7c1b5;
     background-size: cover;
     background-position: center;
-     width: 120%; /
+     width: 120%; 
     height: 170vh;
 }
 
@@ -72,7 +72,7 @@ body {
     background: #d7c1b5;
     background-size: cover;
     background-position: center;
-    / width: 120%; /
+    width: 120%; 
     height: 130vh;
 }
 
@@ -83,7 +83,7 @@ body {
     background: #d7c1b5;
     background-size: cover;
     background-position: center;
-    / width: 120%; 
+    width: 120%; 
     height: 100vh;
 }
 }
