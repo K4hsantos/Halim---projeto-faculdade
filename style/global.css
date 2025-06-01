@@ -1,55 +1,100 @@
 * {
   margin: 0;
-  padding: 0; 
-  box-sizing: border-box; /* importante para controle de largura */
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'arabic-ramadhan';
+    src: url(../fonts/arabic-ramadhan.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'classy-vogue-regular';
+    src: url(../fonts/classy-vogue-regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'above-the-beyond-script';
+    src: url(../fonts/above-the-beyond-script.otf) format('opentype');
 }
 
 body {
-  overflow-x: hidden;
-}
-
-#hero {
-  background: url(../assets/imagem_vertical.png) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  max-width: 100vw;
-  height: 100vh;
-}
-
-#reserve, #feedback, #history {
-  width: 100%;
-  max-width: 100vw;
-  background-size: cover;
-  background-position: center;
+    overflow-x: hidden;
 }
 
 @media (max-width: 720px) {
-  section {
+    section {
+        body {
     overflow-x: hidden;
-  }
+}
+    }
 }
 
-/* Media Queries corrigidas */
-
-@media (min-width: 30em) {
-  #history {
-    height: 130vh;
-  }
-}
-
-@media (min-width: 80em) {
-  #hero {
-    background-image: url(../assets/background.png);
+#hero {
+    background: url(../assets/imagem_vertical.png) no-repeat;
     background-size: cover;
     background-position: center;
+    width: 120%;
     height: 100vh;
-    width: 100%; /* 100.4% foi removido */
-    max-width: 100vw;
-  }
 }
 
-@media (min-width: 120em) {
-  #history {
+#reserve {
+    display: flex;
+    background: #23401f no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 100vh;
-  }
+
+}
+
+#feedback {
+    background: #23401f;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+}
+
+
+#history {
+    background: #d7c1b5;
+    background-size: cover;
+    background-position: center;
+     width: 120%; /
+    height: 170vh;
+}
+
+
+
+@media (width >= 30em) {
+    #history {
+    background: #d7c1b5;
+    background-size: cover;
+    background-position: center;
+    / width: 120%; /
+    height: 130vh;
+}
+
+}
+
+@media (width >= 120em) {
+    #history {
+    background: #d7c1b5;
+    background-size: cover;
+    background-position: center;
+    / width: 120%; 
+    height: 100vh;
+}
+}
+
+
+@media (width >= 80em) {
+    #hero {
+        background-image: url(../assets/background.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100.4%;
+    }
 }
