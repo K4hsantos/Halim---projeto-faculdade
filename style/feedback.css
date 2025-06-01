@@ -59,12 +59,11 @@
     & .card {
       transition: transform 0.3s ease;
 
-    &:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-}
-        padding-bottom: 30rem;
+      &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      }
+    }
   & h1 {
     font-family: 'above-the-beyond-script', sans-serif;
     font-size: 3.8rem;

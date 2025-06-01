@@ -54,13 +54,14 @@
 
 @media (width >= 80em) {
     #history {
-        position: relative;
-        padding-bottom: 10rem;
+        /* position: relative; */
+        padding-bottom: 1rem;
+
         & h1 {
             font-family: 'above-the-beyond-script', sans-serif;
             font-size: 3.8rem;
             font-weight: 100;
-            padding-top: 20rem;
+            padding-top: 3rem;
             text-align: initial;
         }
     
@@ -121,7 +122,7 @@
             font-family: 'above-the-beyond-script', sans-serif;
             font-size: 3.8rem;
             font-weight: 100;
-            padding-top: 22rem;
+            padding-top: 2rem;
         }
     
         & p {
