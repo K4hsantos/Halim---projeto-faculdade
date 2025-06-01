@@ -1,4 +1,5 @@
-#feedback {
+@media(max-width: 420px) {
+  #feedback {
   overflow-x: hidden;
   padding-bottom: 85rem;
 
@@ -53,6 +54,7 @@
     max-width: none;
     z-index: 1;
   }
+}
 }
 
 @media (width >= 80em) {
