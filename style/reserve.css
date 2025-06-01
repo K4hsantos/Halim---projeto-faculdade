@@ -1,11 +1,59 @@
-@media (width >= 80em) {
-       #reserve {
+#reserve {
+    padding-bottom: 3rem;
+    & img {
+        margin-top: 3rem;
+        display: none;
+        width: 45%;
+        margin: auto;
+    }
 
+    & h1 {
+        display: flex;
+        font-family: 'above-the-beyond-script', sans-serif;
+        font-size: 2.5rem;
+        color: #d7c1b5;
+        margin-top: 3rem;
+        /* margin-bottom: 5rem; */
+        justify-content: center;
+        /* transform: translateX(20%); */
+    }
+
+    & p {
+        font-family: 'classy-vogue-regular';
+        font-size: 1.5rem;
+        color: #d7c1b5;
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    & a {
+        display: block;
+        font-family: 'classy-vogue-regular', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #d7c1b5;
+        width: 30rem;
+        padding-right: 6rem;
+        padding-left: 6em;
+        padding-top: .5rem;
+        margin: auto;
+        margin-top: 1rem;
+        border: solid 1px #d7c1b5;
+        border-radius: .5rem;
+        max-width: 10rem;
+    }
+}
+
+
+@media (width >= 80em) {
+    #reserve {
+        overflow: initial;
         & img {
             margin-top: 7rem;
             display: block;
             width: 45%;
-            margin: left;
+            margin-left: -1%;
         }
 
         & h1 {
@@ -25,7 +73,8 @@
             color: #d7c1b5;
             width: 100%;
             margin-top: 5rem;
-            margin-left: 33rem; 
+            margin-left: 33rem;
+            text-align: initial; 
         }
 
 
@@ -39,7 +88,7 @@
 
             padding-right: 2rem;
             padding-left: 4em;
-            padding-top: .5rem;
+            padding-top: 2rem;
 
             margin: auto;
             margin-top: 7rem;
@@ -47,12 +96,9 @@
 
             border: solid 1px #d7c1b5;
             border-radius: .5rem;
+            max-width: none;
         }
     } 
-}
-
-@media (width >= 90em) {
-
 }
 
 @media (width >= 120em) {

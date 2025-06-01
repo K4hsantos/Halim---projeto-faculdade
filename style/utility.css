@@ -16,6 +16,13 @@
     padding: 0; 
 }
 
+.button {
+    border: solid 1px;
+    width: 1rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
 @media (width >= 80em) {
     .container {
         width: 80em;
@@ -29,6 +36,13 @@
 
     .mobile-only {
         display: none;
+    }
+
+    .button {
+        border: solid 1px;
+        width: 10rem;
+        height: 5rem;
+        border-radius: 2rem;
     }
 }
 
