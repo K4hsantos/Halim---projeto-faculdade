@@ -1,6 +1,5 @@
 @media (max-width: 420px) {
   #feedback {
-    overflow-x: hidden;
     padding-bottom: 5rem; /* Corrigido */
 
     & h1 {

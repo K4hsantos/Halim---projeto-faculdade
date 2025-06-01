@@ -1,6 +1,5 @@
 @media (max-width: 420px) {
   #reserve {
-    overflow-x: hidden;
     padding-bottom: 3rem;
 
     & img {

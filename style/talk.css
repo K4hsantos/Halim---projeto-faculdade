@@ -1,6 +1,5 @@
 @media (max-width: 420px) {
   #talk {
-    overflow-x: hidden;
     
     & h1 {
       font-family: 'above-the-beyond-script', sans-serif;
