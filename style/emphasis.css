@@ -19,7 +19,7 @@
         align-items: center;
         gap: 2rem; /* espaçamento menor para mobile */
         padding: 0 1rem;
-        width: 100%;
+        width: 90%;
       }
     
       & .grid-container {
