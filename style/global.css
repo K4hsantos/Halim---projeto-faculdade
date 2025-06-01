@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -18,8 +19,9 @@
     src: url(../fonts/above-the-beyond-script.otf) format('opentype');
 }
 
-body {
+html, body {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 @media (max-width: 720px) {
