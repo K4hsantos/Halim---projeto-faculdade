@@ -101,7 +101,6 @@
 
     #hero {
         & header {
-
             & nav {
                 display: flex;
                 justify-content: space-between;

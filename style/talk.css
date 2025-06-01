@@ -1,0 +1,94 @@
+#talk {
+
+        & h1 {
+    font-family: 'above-the-beyond-script', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 100;
+    color: #c72023;
+  }
+
+  & .limit {
+    position: relative;
+  & ul {
+    margin-top: 2rem;
+    list-style: none;
+    display: grid;
+    row-gap: 2rem;
+
+    & li:nth-child(1) {
+      max-width: 4%;
+      & img {
+        width: 100%;
+      }
+      & a {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-decoration: none;
+        font-size: 2rem;
+        color: #23401f;
+      }
+
+    }
+
+    & li:nth-child(2) {
+      max-width: 17%;
+      & img {
+        width: 17%;
+      }
+      & a {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-decoration: none;
+        font-size: 2rem;
+        color: #23401f;
+      }
+    }
+
+    & li:nth-child(3) {
+      max-width: 50%;
+      & img {
+        position: relative;
+        width: 8%;
+        right: 1%;
+      }
+      & a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #23401f;
+        font-size: 2rem;
+      }
+    }
+
+    & li:nth-child(4) {
+      max-width: 45%;
+      & img {
+        position: relative;
+        width: 8%;
+      }
+      & a {
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        text-decoration: none;
+        color: #23401f;
+        font-size: 2rem;
+      }
+    }
+
+  }
+    & .maps {
+        padding-bottom: 10rem;
+        cursor: pointer;
+      & img {
+        position: absolute;
+        display: block;
+        width: 30%;
+        left: 70%;
+        top: -40%;
+      }
+    }
+  }
+}

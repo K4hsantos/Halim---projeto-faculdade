@@ -56,12 +56,6 @@ body {
     height: 130vh;
 }
 
-#emphasis {
-    background: #fefdfd;
-    background-size: cover;
-    background-position: center;
-    height: 120vh;
-}
 
 @media (width >= 80em) {
     #hero {

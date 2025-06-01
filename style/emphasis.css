@@ -1,6 +1,7 @@
 @media (width >= 120em) {
     #emphasis {
         padding-top: 7rem;
+        margin-bottom: 20rem;
         & h1 {
             width: fit-content;
             font-family: 'above-the-beyond-script', sans-serif;
