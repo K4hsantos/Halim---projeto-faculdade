@@ -1,6 +1,6 @@
 @media (max-width: 420px) {
   #feedback {
-    padding-bottom: 5rem; /* Corrigido */
+    padding-bottom: 35rem; /* Corrigido */
 
     & h1 {
       font-family: 'above-the-beyond-script', sans-serif;
