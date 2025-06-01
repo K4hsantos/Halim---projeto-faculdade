@@ -23,6 +23,12 @@ body {
   background-position: center;
 }
 
+@media (max-width: 720px) {
+  section {
+    overflow-x: hidden;
+  }
+}
+
 /* Media Queries corrigidas */
 
 @media (min-width: 30em) {
