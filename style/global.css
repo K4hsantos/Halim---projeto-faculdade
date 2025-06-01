@@ -22,6 +22,14 @@ body {
     overflow-x: hidden;
 }
 
+@media (max-width: 720px) {
+    section {
+        body {
+    overflow-x: hidden;
+}
+    }
+}
+
 #hero {
     background: url(../assets/imagem_vertical.png) no-repeat;
     background-size: cover;
