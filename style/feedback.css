@@ -101,7 +101,7 @@
 
   & img {
     position: absolute;
-    top: 430%;
+    top: 400%;
     left: 0;
     width: 100vw;
     max-width: none;
@@ -113,6 +113,7 @@
 
 @media (width >= 90em ) {
   #feedback {
+    padding-bottom: 30rem;
     & img {
       position: absolute;
       top: 445%;
@@ -126,7 +127,7 @@
 
 @media (width >= 120em) {
     #feedback {
-      padding-bottom: 30rem;
+      padding-bottom: 40rem;
     & h1 {
       font-family: 'above-the-beyond-script', sans-serif;
       font-size: 3.8rem;
@@ -171,7 +172,7 @@
 
     & img {
       position: absolute;
-      top: 425%;
+      top: 400%;
       left: 0;
       width: 100vw;
       /* max-width: none; */
