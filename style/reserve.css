@@ -94,6 +94,22 @@
             border: solid 1px #d7c1b5;
             border-radius: .5rem;
             max-width: none;
+
+          transition: 
+            transform 0.3s ease, 
+            box-shadow 0.3s ease, 
+            color 0.3s ease, 
+            border-color 0.3s ease;
+                
+          &:hover {
+            transform: scale(1.1) translateY(-5px);
+            cursor: pointer;
+            box-shadow: 0 8px 15px rgba(199, 32, 35, 0.6);
+            color: #fff; /* texto branco */
+            background-color: #c72023; /* fundo vermelho */
+            border-color: #fff; /* borda branca */
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+          }
         }
     } 
 }
