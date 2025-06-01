@@ -1,7 +1,6 @@
 @media (max-width: 420px) {
   #welcome {
     margin-bottom: 8rem;
-    overflow-x: hidden; /* previne vazamento */
 
     & h1 {
       font-family: 'above-the-beyond-script', sans-serif;
