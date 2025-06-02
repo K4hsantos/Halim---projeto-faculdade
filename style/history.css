@@ -82,8 +82,8 @@
             column-gap: 7rem;
             
             position: absolute;
-            left: 45%;
-            top: 15%;
+            left: 55%;
+            top: 450%;
     
             & img:nth-child(1) {
                 width: 150%;
